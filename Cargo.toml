@@ -1,7 +1,15 @@
 [package]
-name = "devinette_numeros"
-version = "0.3.0"
+name = "number_guessing_game"
+version = "0.3.2"
+authors = ["Josborne,MichaelYouAreSocks"]
 edition = "2021"
+description = "A simple number guessing game with a few quality of life improvements such as:  game size, attempts per round, hints, saving and Loading settings."
+readme = "README.md"
+repository = "https://github.com/Jo580rn3/Number-Guessing-Game"
+license = "Apache-2.0 AND GPL-3.0-only"
+keywords = ["gamedev", "no graphics"]
+categories = ["command-line-games"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

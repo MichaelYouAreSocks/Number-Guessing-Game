@@ -4,8 +4,8 @@ use crate::{
         cls_scr::cls_title,
         questions::numeric_input,
         settings::{
+            edit::save_setting_to_file,
             in_game::{game_hint, game_size, game_tries},
-            file::edit::save_setting_to_file,
         },
     },
     RuntimeFunctionBlob,

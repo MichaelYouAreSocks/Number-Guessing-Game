@@ -2,7 +2,6 @@ use crate::{Comunication, CoreFunctions, ErrFormat, RuntimeFunctionBlob, Setting
 
 //Génère le fichier d'options s'il n'existe pas et le lit.
 pub fn default_settings() -> RuntimeFunctionBlob {
-
     //
     let settings: Settings = Settings {
         max_range: 100,
@@ -22,7 +21,8 @@ pub fn default_settings() -> RuntimeFunctionBlob {
             name: String::new(),
             msg: String::new(),
         },
-        settings_file_path: String::from("Settings.txt"),
+        settings_file_path: String::from("settings.bin"),
+        score_board_path: String::from("score_board.bin"),
     };
 
     //

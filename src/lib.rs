@@ -14,12 +14,11 @@ pub struct Settings {
 }
 
 //
-#[derive(Clone)]
-#[derive(Debug)]
+#[derive(Clone, Debug)]
 pub struct ErrFormat {
-    pub code: u8,       //
-    pub name: String,   //
-    pub msg: String,    //
+    pub code: u8,     //
+    pub name: String, //
+    pub msg: String,  //
 }
 
 //
@@ -29,6 +28,7 @@ pub struct CoreFunctions {
     pub stop: bool,                 //Permet de quiter le jeu.
     pub error_handler: ErrFormat,   //Concatène tout ce qui se rapport à une erreure.
     pub settings_file_path: String, //Contien l'emplacement par défaut du fichier de paramêtres.
+    pub score_board_path: String,   //Contien l'emplacement par défaut du fichier de scores.
 }
 
 //
